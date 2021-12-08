@@ -152,7 +152,7 @@ const imprimePrimeraUltima = function (area) {
 
 //Limpia los HTML para dejarlos en blanco
 const limpiarHTML = function () {
-  primeraUltHTML.innerHTML = '';
+  // primeraUltHTML.innerHTML = '';
   bodyTable.innerHTML = '';
 };
 
@@ -198,10 +198,3 @@ dentalBtn.addEventListener('click', function () {
   imprimePrimeraUltima(dental);
   imprimeTabla(dental);
 });
-
-//Reactoring botones
-const crearHTML = function (area, nombreArea) {
-  imprimeArea('Dental');
-  imprimePrimeraUltima(dental);
-  imprimeTabla(dental);
-};
